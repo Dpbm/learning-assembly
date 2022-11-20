@@ -1,0 +1,8 @@
+#!/bin/bash
+
+PROGRAM_FILE=$1
+PROGRAM_NAME=$(sed 's/.asm//' <<<$PROGRAM_FILE)
+
+nasm -f elf $PROGRAM_FILE
+ld -m elf_i386 -s -o $PROGRAM_NAME $PROGRAM_NAME.o
+./$PROGRAM_NAME
