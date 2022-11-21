@@ -10,7 +10,7 @@ section .text
 
 _start:
     mov eax, 3 ;sys_read
-    mov ebx, 2 ;stdin
+    mov ebx, 0 ;stdin
     mov ecx, num ;variable to store read data
     mov edx, 4 ; size
     int 0x80
