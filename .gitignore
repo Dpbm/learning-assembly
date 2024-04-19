@@ -5,3 +5,5 @@
 *.o
 *.out
 !run
+*.img
+*.bin
