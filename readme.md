@@ -9,6 +9,7 @@ If you want to learn it too, take a look at the following references:
 
 - [Tutorials point](https://www.tutorialspoint.com/assembly_programming/) 
 - [The Art of Assembly Language](https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf)
+- [RiscV manual](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf)
 
 also [google](google.com) and [chatgpt](https://chat.openai.com/) are some pretty good tools to understand better some commands, registers, etc. 
 
@@ -31,7 +32,9 @@ For `debian` based linux distros, you can run:
 
 To install them.
 
-Also, if you use [asdf](https://asdf-vm.com/), I made a plugin to install `nasm` easily, so go to [my repo](https://github.com/Dpbm/asdf-nasm) and follow the instructions. 
+Also, if you use [asdf](https://asdf-vm.com/), I made a plugin to install `nasm` easily, just jump to [my repo](https://github.com/Dpbm/asdf-nasm) and follow the instructions. 
+
+Finally, if you want to test the [riscv](./risc-v/) part, it's a good idea to upload the source files to [this online simulator](https://ascslab.org/research/briscv/simulator/simulator.html).
 
 ---
 

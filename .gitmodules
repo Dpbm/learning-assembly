@@ -1,0 +1,3 @@
+[submodule "asdf-nasm"]
+	path = asdf-nasm
+	url = https://github.com/Dpbm/asdf-nasm
