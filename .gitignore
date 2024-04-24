@@ -5,6 +5,7 @@
 *.o
 *.out
 !run
+!Makefile
 *.img
 *.bin
 !asdf-nasm
